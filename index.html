@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+    <div id="todo">
+        <div class="todo_main">
+            <p>Список дел на <span class="date"></span></p>
+            <div class="todo_input">
+                <form id="todo_form">
+                    <div>
+                        <span>Название задачи</span>
+                        <input type="text" name="todo" required placeholder="Пример: покушать">
+                    </div>
+                    <div>
+                        <span>Дедлайн:</span>
+                        <input type="time" name="time">
+                    </div>
+                    <button type="submit">Добавить</button>
+                </form>
+            </div>
+        </div>
+        <div class="todo_list">
+            <div class="todo_item done">Заказать еду</div>
+            <div class="todo_item">Выкинуть мусор</div>
+            <div class="todo_item done">Почитать книгу</div>
+            <div class="todo_item done">
+                Покормить кота
+                <div class="todo_time">15:15</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
