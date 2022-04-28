@@ -53,17 +53,7 @@ function init() {
         todoDelete.className = 'todo_delete';
         todoNew.append(todoDelete);
         todoList.append(todoNew);
-        // todoAlert(todoValue);
         todoForm.reset();
-    }
-
-
-    function addTodo() {
-        return new Promise();
-    }
-
-    function todoAlert(text) {
-        alert(text);
     }
 
 }
